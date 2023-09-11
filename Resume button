@@ -1,0 +1,50 @@
+<code>
+<!-- This is the link to the PDF icon from Font Awesome -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<!-- This is the style for the button -->
+<style>
+  .pill-button {
+    /* This makes the button shaped like a pill */
+    border-radius: 25px;
+    /* This sets the font color to white */
+    color: white;
+    /* This sets the border color to black */
+    border: 1.5px solid black;
+    /* This sets the background color to green */
+    background-color: green;
+    /* This sets the padding around the button text and icon */
+    padding: 10px 20px;
+    /* This sets the font size of the button text */
+    font-size: 16px;
+    /* This sets the cursor to a pointer when hovering over the button */
+    cursor: pointer;
+  }
+
+  .pill-button:hover {
+    /* This changes the background color to a lighter green when hovering over the button */
+    background-color: limegreen;
+  }
+
+  .pill-button:active {
+    /* This changes the background color to a darker green when clicking on the button */
+    background-color: darkgreen;
+  }
+
+  .fa-file-pdf-o {
+    /* This adds some space between the icon and the button text */
+    margin-right: 10px;
+  }
+</style>
+
+<!-- This is the HTML for the button -->
+<a href="https://example.com/resume.pdf" target="_blank">
+  <!-- This makes the button open a new tab with the URL you specified -->
+  <button class="pill-button">
+    <!-- This adds the PDF icon from Font Awesome -->
+    <i class="fa fa-file-pdf-o"></i>
+    <!-- This adds the button text -->
+    Resume
+  </button>
+</a>
+</code>
