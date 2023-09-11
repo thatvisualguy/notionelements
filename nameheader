@@ -1,0 +1,38 @@
+<code>
+<!-- This is the link to the Caudex font from Google Fonts -->
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Caudex">
+
+<!-- This is the style for the GIF and the text -->
+<style>
+  .gif-container {
+    /* This sets the position of the GIF container to relative */
+    position: relative;
+  }
+
+  .gif-text {
+    /* This sets the position of the text to absolute */
+    position: absolute;
+    /* This sets the top and left coordinates of the text to 50% of the GIF container */
+    top: 0;
+    left: 0;
+    /* This transforms the text to center it on the GIF */
+    transform: translate(-50%, -50%);
+    /* This sets the font family to Caudex */
+    font-family: 'Caudex', serif;
+    /* This sets the font size to 36 pixels */
+    font-size: 48px;
+    /* This sets the font color to white */
+    color: black;
+  }
+</style>
+
+<!-- This is the HTML for the GIF and the text -->
+<div class="gif-container">
+  <!-- This adds the GIF from the Google Drive link -->
+  <img src="https://drive.google.com/uc?export=view&id=1I_TWRmTsNnFDkb_AhFnc_R0O1XabA3vh" alt="A man dancing with a hat">
+  <!-- This adds the text over the GIF -->
+  <div class="gif-text">Vaibhav Zinzuvadia</div>
+</div>
+</code>
+
+Note that I have modified the Google Drive link to make it work as an image source. You can do this by replacing `/file/d/` with `/uc?export=view&id=` in the URL. Does this answer your question? 😊
